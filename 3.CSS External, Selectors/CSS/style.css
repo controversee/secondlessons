@@ -1,0 +1,102 @@
+*{
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:orange;
+    border-radius:5px;
+
+}
+.first{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding:19rem;
+
+}
+.first h1 {
+    color:#212529;
+    font-size: 88px;
+}
+.first p{
+    color:#212529;
+    font-size:28px; 
+    margin:0px 10px 0px 10px;
+    margin-bottom:50px;
+    font-style:bold;
+}
+.first a{
+    background-color:#1d809f;
+    color:#fff;
+    padding: 20px 40px;
+    border-radius:5px;
+    transition:.6s;
+
+}
+.first a:hover{
+    background-color:#2ba0c4;
+    border-radius:0;
+}
+.second{
+    text-align:center;
+    padding:24px;
+    background-attachment: fixed;
+}
+.second h1{
+    color:#212529;
+    font-size:32px;
+    padding:20px;
+
+}
+.second p{
+    font-size:20px;
+    color:#212529;
+    padding:20px;
+    margin-bottom:40px;
+
+}
+.unsplash{
+    text-decoration: underline;
+
+}
+.offer{
+    color:#fff;
+    background-color:#212529;
+    padding:20px 40px;
+    border-radius:5px;
+    transition:.6s;
+}
+.second a:hover{
+    background-color:#2f353b;
+    border-radius:0;
+}
+.third{
+    text-align:center;
+    background-image:url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding:19rem;
+}
+.third h1{
+    font-size:56px;
+    color:#212529;
+    margin-bottom:40px;
+}
+.third a{
+    background-color:#1d809f;
+    color:#fff;
+    padding: 20px 40px;
+    border-radius:5px;
+    transition:.6s;
+}
+.third a:hover{
+    background-color:#2ba0c4;
+    border-radius:0;
+}
